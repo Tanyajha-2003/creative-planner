@@ -10,7 +10,7 @@
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true,
     "sourceMap": true,
-    "jsx": "react-jsx"      // 👈 This line is the key!
+    "jsx": "react-jsx"   
   },
   "include": ["src"],
   "exclude": ["node_modules", "webview-src"]
