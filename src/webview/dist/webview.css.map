@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../styles.css"],
+  "sourcesContent": ["body { font-family: Inter, ui-sans-serif, system-ui; margin:0; padding:10px; }\n.app header { margin-bottom:8px }\n.controls textarea { width:100%; height:70px }\n.controls button { margin-top:8px }\n.layout { display:flex; gap:12px }\n.kanban { display:flex; gap:8px; flex:1 }\n.col { background:#f7f8fb; padding:8px; border-radius:8px; width:40% }\n.task-card { background:white; padding:8px; margin:6px 0; border-radius:6px; box-shadow:0 2px 6px rgba(0,0,0,0.06) }\n.agent-panel { background:#fff; padding:8px; border-radius:8px; margin-bottom:8px }\n.console { background:#0b1220; color:#e6eef8; padding:8px; border-radius:8px; height:200px; overflow:auto }"],
+  "mappings": ";AAAA;AAAO;AAAA,IAAa,KAAK;AAAA,IAAE,aAAa;AAAA,IAAE;AAAW,UAAO;AAAG,WAAQ;AAAM;AAC7E,CAAC,IAAI;AAAS,iBAAc;AAAI;AAChC,CAAC,SAAS;AAAW,SAAM;AAAM,UAAO;AAAK;AAC7C,CADC,SACS;AAAS,cAAW;AAAI;AAClC,CAAC;AAAS,WAAQ;AAAM,OAAI;AAAK;AACjC,CAAC;AAAS,WAAQ;AAAM,OAAI;AAAK,QAAK;AAAE;AACxC,CAAC;AAAM,cAAW;AAAS,WAAQ;AAAK,iBAAc;AAAK,SAAM;AAAI;AACrE,CAAC;AAAY,cAAW;AAAO,WAAQ;AAAK,UAAO,IAAI;AAAG,iBAAc;AAAK,cAAW,EAAE,IAAI,IAAI,KAAK,CAAC,EAAC,CAAC,EAAC,CAAC,EAAC;AAAM;AACnH,CAAC;AAAc,cAAW;AAAM,WAAQ;AAAK,iBAAc;AAAK,iBAAc;AAAI;AAClF,CAAC;AAAU,cAAW;AAAS,SAAM;AAAS,WAAQ;AAAK,iBAAc;AAAK,UAAO;AAAO,YAAS;AAAK;",
+  "names": []
+}

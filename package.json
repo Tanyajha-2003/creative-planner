@@ -1,0 +1,40 @@
+{
+  "name": "traycer-creative",
+  "displayName": "Traycer — Creative Planner",
+  "version": "0.1.0",
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "main": "./out/extension.js",
+  "activationEvents": [
+    "onCommand:traycer-creative.openPlanner"
+  ],
+  "scripts": {
+    "build:webview": "node esbuild.config.mjs",
+    "build": "tsc -p .",
+    "dev": "npm run build:webview && npm run build"
+  },
+  "contributes": {
+    "commands": [
+      {
+        "command": "traycer-creative.openPlanner",
+        "title": "Traycer: Open Creative Planner"
+      }
+    ]
+  },
+  "devDependencies": {
+    "@types/node": "^18.0.0",
+    "@types/react": "^19.1.17",
+    "@types/react-dom": "^19.1.11",
+    "@types/vscode": "^1.80.0",
+    "esbuild": "^0.18.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3",
+    "vsce": "^2.10.0"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-beautiful-dnd": "^13.1.1",
+    "react-dom": "^18.3.1"
+  }
+}
