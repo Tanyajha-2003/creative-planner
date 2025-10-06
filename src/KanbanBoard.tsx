@@ -27,7 +27,7 @@ export default function KanbanBoard({
   function handleDrop(status: string) {
     if (draggingTask) {
       // Simulate changing task status manually for DnD polish
-      const fakeAgentId = "manual"; // you can change this if needed
+      const fakeAgentId = "manual"; 
       if (status === "inProgress") {
         onRunTask(draggingTask, fakeAgentId);
       }
